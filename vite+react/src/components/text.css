@@ -1,0 +1,24 @@
+.first-text {
+  margin-top: 4rem;
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  margin-left: 0.2rem;
+  font-size: 36px;
+}
+.h3 {
+  font-weight: 300;
+  font-size: 13px;
+  max-width: 375px;
+}
+@media screen and (min-width: 39.75em) {
+  .first-text {
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .h3 {
+    font-weight: 300;
+    font-size: 16px;
+    max-width: 370px;
+    margin-left: 4rem;
+  }
+}

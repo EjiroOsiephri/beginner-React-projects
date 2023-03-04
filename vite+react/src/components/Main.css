@@ -1,0 +1,12 @@
+.div-img {
+  margin-top: 3%;
+  max-width: 20rem;
+}
+
+@media screen and (min-width: 39.75em) {
+  /* CSS rules for screens with a minimum width of 600px */
+  .div-img {
+    margin-left: 5%;
+    max-width: 100%;
+  }
+}

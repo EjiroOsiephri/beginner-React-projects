@@ -1,7 +1,10 @@
+import IMG from "./Group 77.png";
+import "../components/Main.css";
+
 const Main = () => {
   return (
-    <div>
-      <h1>Fun Facts About React</h1>
+    <div className="hero">
+      <img className="div-img" src={IMG} alt="" />
     </div>
   );
 };
