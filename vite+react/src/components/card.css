@@ -3,11 +3,13 @@
   height: 17.5rem;
   margin-top: 4rem;
   margin-left: 3rem;
+  margin-bottom: 6rem;
 }
-.flex-container {
+.myDiv {
   display: flex;
-  gap: 4px;
+  gap: 120px;
 }
+
 .flex-container > img {
   width: 10%;
 }
