@@ -4,10 +4,21 @@
   margin-top: 4rem;
   margin-left: 3rem;
   margin-bottom: 6rem;
+  position: relative;
 }
 .myDiv {
   display: flex;
-  gap: 120px;
+  gap: 14rem;
+}
+.card-img {
+  width: 17rem;
+  height: 22rem;
+}
+@media screen and (max-width: 560px) {
+  .myDiv {
+    display: grid;
+    gap: 22rem;
+  }
 }
 
 .flex-container > img {
@@ -32,4 +43,13 @@
   color: #918e9b;
   margin-bottom: 0;
   margin-top: 0;
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
